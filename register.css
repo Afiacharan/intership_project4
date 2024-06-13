@@ -1,0 +1,134 @@
+body {
+  background-image: url("moutain.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+.col {
+  height: 900px;
+  width: 500px;
+  position: absolute;
+  left: 8px; /* Adjust this value based on padding */
+  /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+form {
+  position: relative;
+}
+.times {
+  position: absolute;
+  top: 0%;
+  right: 20px;
+  font-size: 25px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.row {
+  margin: 40px;
+  position: relative;
+}
+
+.btn {
+  width: 58vmin;
+  background-color: #0000ff;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+.re {
+  font-size: 22px;
+}
+.form-control {
+  padding: 6px;
+  font-size: 20px;
+  width: 58vmin;
+  border-radius: 10px;
+}
+.form-label {
+  padding: 6px;
+  font-size: 20px;
+}
+p {
+  font-size: 24px;
+}
+.fom {
+  height: 900px;
+}
+.img {
+  background-image: url("pic.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+}
+.mb-3 {
+  position: relative;
+}
+.mb-3 i {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  top: 65%;
+  left: 10px;
+}
+.mb-3 input {
+  padding: 10px 40px;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 1.6rem;
+  text-decoration: none;
+  width: 94%;
+  margin: auto;
+  text-align: center;
+}
+.middle::before,
+.middle::after {
+  content: "";
+  height: 0.2px;
+  background: #000;
+  display: block;
+}
+.goo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 10px;
+  width: 550px;
+  /* margin: auto; */
+}
+
+.shadow {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 5px;
+  /* width: 50%; Set width */
+  text-align: center; /* Center align text */
+}
+
+
+img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.forgot{
+  text-align: right;
+  margin-right: 25px;
+}
